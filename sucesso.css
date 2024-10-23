@@ -1,0 +1,28 @@
+/* Estilo geral do corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    background-color: #f4f4f4; /* Cor de fundo suave */
+    color: #333; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 50px; /* Espaçamento interno */
+    margin: 0; /* Remove margens padrão */
+}
+
+/* Estilo do parágrafo */
+p {
+    font-size: 1.2em; /* Tamanho da fonte */
+    color: #4caf50; /* Cor do texto verde */
+    margin-bottom: 20px; /* Espaçamento abaixo do parágrafo */
+}
+
+/* Estilo do link */
+a {
+    text-decoration: none; /* Remove o sublinhado do link */
+    color: #007bff; /* Cor do link azul */
+    font-size: 1.1em; /* Tamanho da fonte */
+}
+
+a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+    color: #0056b3; /* Escurece a cor do link quando passa o mouse */
+}

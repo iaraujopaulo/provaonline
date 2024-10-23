@@ -1,0 +1,78 @@
+/* Define a fonte padrão e as margens para o corpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilo para a imagem do logo */
+img {
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+/* Estilo para o título */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo para o formulário */
+form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para labels e inputs */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="radio"] {
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: calc(100% - 22px); /* Ajusta a largura do input para se alinhar com o padding */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Estilo para os parágrafos das questões */
+p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+/* Estilo para o botão de envio */
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
